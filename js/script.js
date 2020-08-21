@@ -63,3 +63,9 @@ console.log(`https://someurl.com/${categoty}` );
 const user = 'Ivan';
 
 console.log(`hello, ${user}`)
+
+let arr = {
+    name: 'Alex',
+    age: 18,
+    location: 'Ukraine',
+}
