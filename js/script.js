@@ -93,11 +93,24 @@ console.log(Math.round(num));
 
 const test = '12.2px';
 
-console.log(parseInt(test));
+// console.log(parseInt(test));
 console.log(parseFloat(test));
 
 
+function learnJS(lang, callback, callback2) {
+    console.log(`I learn: ${lang}`);
+    callback();
+    callback2();
+} 
 
 
 
+function done() {
+    console.log('I go this lesson');
+}
 
+let a = function() {
+    console.log('wwww');
+}
+
+learnJS('javaScript', done, a);
