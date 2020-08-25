@@ -56,16 +56,48 @@
 // console.log(isPolindrom("125678"));
 
 
-const categoty = 'toys';
+// const categoty = 'toys';
 
-console.log(`https://someurl.com/${categoty}` );
+// console.log(`https://someurl.com/${categoty}` );
 
-const user = 'Ivan';
+// const user = 'Ivan';
 
-console.log(`hello, ${user}`)
+// console.log(`hello, ${user}`);
 
-let arr = {
-    name: 'Alex',
-    age: 18,
-    location: 'Ukraine',
-}
+// let arr = {
+//     name: 'Alex',
+//     age: 18,
+//     location: 'Ukraine',
+// };
+
+const str = 'test';
+
+console.log(str.toUpperCase());
+
+const fruit = "Some fruit";
+
+console.log(fruit.indexOf('q'));
+
+const logg = "some people tell me, that i very good programist";
+
+console.log (logg.substring(6,11));
+
+console.log (logg.substr(6,5));
+
+
+
+const num = 12.2;
+
+console.log(Math.round(num));
+
+
+const test = '12.2px';
+
+console.log(parseInt(test));
+console.log(parseFloat(test));
+
+
+
+
+
+
